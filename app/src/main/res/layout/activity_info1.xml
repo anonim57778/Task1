@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Info1">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Салат Цезарь Premium"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="300dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="60dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/premium" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="326dp"
+        android:layout_height="410dp"
+        android:layout_marginTop="316dp"
+        android:text="Батон нарежьте на небольшие кубики. На сковороду налейте немного растительного масла, положите очищенный и раздавленный зубчик чеснока. Выложите нарезанный хлеб, перемешайте. Жарьте гренки на самом маленьком огне до хрустящего состояния. Время от времени их необходимо перемешивать. Если чеснок начнет подгорать, уберите его. Именно поэтому его не надо сильно измельчать. Как подобрать сковороду и масло для жарки читайте в статьях на эти темы. ссылки есть в конце рецепта. Куриное филе нарежьте на небольшие медальоны одинакового размера. Посолите и поперчите их. Поджарьте филе на сковороде с небольшим количеством растительного масла с двух сторон до румяной корочки. Готовое филе снимите со сковороды и остудите. Подготовьте продукты для приготовления соуса. Учтите, что вкус будущего соуса напрямую зависит от выбранных для него ингредиентов. Горчицу выбирайте ту, которую любите, но желательно не очень острую, чтобы она не забила вкус остальных составляющих. Сыр и масло должны быть качественными, вкусными. "
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
